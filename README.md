@@ -27,7 +27,7 @@ Only `A` and `B` are trained, while `W_residual` stays frozen. After training, `
 
 - `bigdata-hw1-q1.ipynb`, `bigdata-hw1-q3.ipynb` — fine-tuning and evaluation (Q1–Q3), with outputs.
 - `bigdata-hw1-q4.ipynb` — SVD analysis of the original model (Q4), with outputs.
-- `extra_q4_all_layers.py` — optional extra analysis repeating the Q4 `q_proj` analysis for all 16 layers.
+- `extra_q4_all_layers.ipynb` — executed notebook (with outputs) of an optional extra analysis that repeats the Q4 `q_proj` analysis for all 16 layers; `extra_q4_all_layers.py` contains the same code as a script.
 - `report/` — the report (`Asg1_315581033.pdf`) and its figures.
 
 The notebooks are written to run on Kaggle (GPU) and require access to the gated `meta-llama/Llama-3.2-1B` model via a Hugging Face token stored as the Kaggle secret `HF_TOKEN`.
